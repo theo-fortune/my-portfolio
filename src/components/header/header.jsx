@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './header.css';
 import { RiHome5Line } from "react-icons/ri";
 import { BiUser } from "react-icons/bi";
@@ -8,14 +8,15 @@ import { MdLandscape, MdContacts } from "react-icons/md";
 import { BsX } from "react-icons/bs";
 import { AiOutlineAppstore } from "react-icons/ai";
 
-const header = () => {
+const Header = () => {
+  const[Toggle, showMenu] =useState(false);
   return (
-    <header>
+    <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
           Fortune
         </a>
-        <div className="nav__menu">
+        <div className={Toggle ? "nav__menu show__menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
               <a href="#home" className="nav__link active-ink">
@@ -48,9 +49,9 @@ const header = () => {
               </a>
             </li>
           </ul>
-          <BsX className="nav__close" />
+          <BsX className="nav__close" onClick={() => showMenu(!Toggle)} />
         </div>
-        <div className="nav__toggle">
+        <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
           <AiOutlineAppstore />
         </div>
       </nav>
@@ -58,4 +59,4 @@ const header = () => {
   );
 }
 
-export default header
+export default Header

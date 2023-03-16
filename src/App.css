@@ -141,3 +141,9 @@ img {
     margin: 0 1.5rem;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .container {
+    margin: 0 1rem;
+  }
+}
