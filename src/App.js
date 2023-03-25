@@ -1,15 +1,23 @@
-import './App.css';
-import { Header, Home, About, Skills, Services } from './components';
+import "./App.css";
+import {
+  Header,
+  Home,
+  About,
+  Skills,
+  Services,
+  Qualification,
+} from "./components";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <main className='main'>
+      <main className="main">
         <Home />
         <About />
         <Skills />
         <Services />
+        <Qualification />
       </main>
     </div>
   );
