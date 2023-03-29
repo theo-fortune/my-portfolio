@@ -10,7 +10,7 @@ const Data = () => {
       <p className="home__description">
         I'm A curious software developer who's trying to get a bit better everyday
       </p>
-      <a href="#contact" className="button button--flex">
+      <a href="#contact" className="button button__flex">
         Say Hello
         <IoPaperPlaneOutline style={{ color: "var(--container-color)" }} className="button__icon"/>
       </a>

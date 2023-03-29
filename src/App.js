@@ -6,6 +6,8 @@ import {
   Skills,
   Services,
   Qualification,
+  Testimonials,
+  Contact
 } from "./components";
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Testimonials />
+        <Contact />
       </main>
     </div>
   );
