@@ -7,7 +7,9 @@ import {
   Services,
   Qualification,
   Testimonials,
-  Contact
+  Contact,
+  Footer,
+  Top
 } from "./components";
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
         <Testimonials />
         <Contact />
       </main>
+      <Footer />
+      <Top />
     </div>
   );
 }

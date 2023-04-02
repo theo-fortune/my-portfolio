@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiOutlineInstagram } from "react-icons/ai";
-import { BsDribbble } from 'react-icons/bs';
+import { TfiLinkedin } from 'react-icons/tfi';
 import { FiGithub } from 'react-icons/fi';
 
 const Social = () => {
@@ -16,7 +16,7 @@ const Social = () => {
         href="https://www.dribbble.com/uninfectiblebreed"
         className="home__social-icon"
       >
-        <BsDribbble />
+        <TfiLinkedin />
       </a>
       <a
         href="https://www.github.com/theo-fortune"
