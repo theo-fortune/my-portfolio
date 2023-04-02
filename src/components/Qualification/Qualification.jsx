@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./qualification.css";
-import { FaGraduationCap } from "react-icons/fa";
-import { BsBriefcaseFill, BsFillCalendarCheckFill } from "react-icons/bs";
+import { SlGraduation } from "react-icons/sl";
+import { BsFillCalendarCheckFill } from "react-icons/bs";
+import { VscBriefcase } from "react-icons/vsc";
+
 
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -22,7 +24,7 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(1)}
           >
-            <FaGraduationCap className="qualification__icon" /> Education
+            <SlGraduation className="qualification__icon" /> Education
           </div>
           <div
             className={
@@ -32,7 +34,7 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(2)}
           >
-            <BsBriefcaseFill className="qualification__icon" /> Experience
+            <VscBriefcase className="qualification__icon" /> Experience
           </div>
         </div>
         <div className="qualification__sections">

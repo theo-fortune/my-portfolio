@@ -1,12 +1,12 @@
 .top {
   position: fixed;
   right: 2.5rem;
-  bottom: 3rem;
+  bottom: -20%;
   background: var(--title-color);
   opacity: .8;
   padding: 0.3rem .5rem;
   border-radius: .4rem;
-  z-index: var(--z-tooltip);
+  z-index: 10;
   transition: .4s;
 }
 

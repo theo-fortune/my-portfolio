@@ -1,10 +1,11 @@
-import React, {useState} from 'react'
-import './header.css';
+import React, { useState } from "react";
+import "./header.css";
 import { RiHome5Line } from "react-icons/ri";
 import { BiUser } from "react-icons/bi";
 import { AiOutlineFileSearch } from "react-icons/ai";
-import { FaBriefcase } from "react-icons/fa";
-import { MdLandscape, MdContacts } from "react-icons/md";
+import { VscBriefcase } from "react-icons/vsc";
+import { MdOutlinePhonelinkRing } from "react-icons/md";
+import { AiOutlinePicture } from "react-icons/ai";
 import { BsX } from "react-icons/bs";
 import { AiOutlineAppstore } from "react-icons/ai";
 
@@ -58,28 +59,34 @@ const Header = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#services" onClick = {
-                () => setActiveNav("#services")
-              }
-              className = {
-                activeNav === "#services" ? "nav__link active-ink" : "nav__link"
-              }>
-                <FaBriefcase className="nav__icon" /> Services
+              <a
+                href="#services"
+                onClick={() => setActiveNav("#services")}
+                className={
+                  activeNav === "#services"
+                    ? "nav__link active-ink"
+                    : "nav__link"
+                }
+              >
+                <VscBriefcase className="nav__icon" /> Services
               </a>
             </li>
             <li className="nav__item">
-              <a href="#portfolio" onClick = {
-                () => setActiveNav("#portfolio")
-              }
-              className = {
-                activeNav === "#portfolio" ? "nav__link active-ink" : "nav__link"
-              }>
-                <MdLandscape className="nav__icon" /> Portfolio
+              <a
+                href="#portfolio"
+                onClick={() => setActiveNav("#portfolio")}
+                className={
+                  activeNav === "#portfolio"
+                    ? "nav__link active-ink"
+                    : "nav__link"
+                }
+              >
+                <AiOutlinePicture className="nav__icon" /> Portfolio
               </a>
             </li>
             <li className="nav__item">
               <a href="#contact" className="nav__link">
-                <MdContacts className="nav__icon" /> Contact
+                <MdOutlinePhonelinkRing className="nav__icon" /> Contact
               </a>
             </li>
           </ul>
@@ -91,6 +98,6 @@ const Header = () => {
       </nav>
     </header>
   );
-}
+};
 
-export default Header
+export default Header;
