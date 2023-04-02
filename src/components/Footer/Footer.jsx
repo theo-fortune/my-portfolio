@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { VscGithubAlt } from "react-icons/vsc";
+import { FiGithub } from "react-icons/fi";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
@@ -36,7 +36,7 @@ const Footer = () => {
             href="https://www.github.com/theo-fortune"
             className="footer__social-link"
           >
-            <VscGithubAlt />
+            <FiGithub />
           </a>
         </div>
         <span className="footer__copy">
