@@ -8,3 +8,4 @@ export { default as Testimonials } from "./testimonials/Testimonials";
 export { default as Contact } from "./Contact/Contact";
 export { default as Footer } from "./Footer/Footer";
 export { default as Top } from "./Top/Top";
+export {default as Work} from "./Work/Work";

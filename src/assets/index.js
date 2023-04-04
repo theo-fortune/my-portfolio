@@ -3,3 +3,8 @@ export { default as Resume } from './fortunes-resume.pdf';
 export { default as user1 } from "./user1.jpg";
 export { default as user2 } from "./user2.jpg";
 export { default as user3 } from "./user3.jpg";
+export { default as Work1 } from "./work1.png";
+export { default as Work2 } from "./work2.png";
+export { default as Work3 } from "./work3.png";
+export { default as Work4 } from "./work4.png";
+export { default as Work5 } from "./work5.png";

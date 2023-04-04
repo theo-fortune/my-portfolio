@@ -8,7 +8,7 @@ import { Pagination, Autoplay } from "swiper";
 
 const Testimonials = () => {
   return (
-    <section className="testimonials section container">
+    <section className="testimonials section container" id="testimonials">
       <h3 className="section__title">Testimonials</h3>
       <span className="section__subtitle">My clients say</span>
       <Swiper

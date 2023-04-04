@@ -6,6 +6,7 @@ import {
   Skills,
   Services,
   Qualification,
+  Work,
   Testimonials,
   Contact,
   Footer,
@@ -22,6 +23,7 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Work />
         <Testimonials />
         <Contact />
       </main>
