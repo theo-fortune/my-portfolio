@@ -1,5 +1,6 @@
-import React from "react";
-import './contact.css'
+import React, { useRef } from "react";
+import './contact.css';
+import emailjs from "@emailjs/browser";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsArrowRightShort, BsWhatsapp } from "react-icons/bs";
 import { TbBrandTelegram } from "react-icons/tb";
@@ -7,6 +8,27 @@ import { IoPaperPlaneOutline } from "react-icons/io5";
 
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_t7d7iln",
+        "template_97zaply",
+        form.current,
+        "3f0JbSF6LP8Eg3oRs"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <section className="contact section" id="contact">
       <h3 className="section__title">Contact Me</h3>
@@ -50,7 +72,7 @@ const Contact = () => {
 
         <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
-          <form className="contact__form">
+          <form className="contact__form" ref={form} onSubmit={sendEmail}>
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
