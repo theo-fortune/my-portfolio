@@ -13,7 +13,7 @@ const Social = () => {
         <AiOutlineInstagram />
       </a>
       <a
-        href="https://www.dribbble.com/uninfectiblebreed"
+        href = "https://www.linkedin.com/in/fortune-theo-b6445a230"
         className="home__social-icon"
       >
         <TfiLinkedin />

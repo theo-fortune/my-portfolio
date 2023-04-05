@@ -27,7 +27,7 @@ const Footer = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://www.linkedin.com/fortune-theo-b6445a230"
+            href = "https://www.linkedin.com/in/fortune-theo-b6445a230"
             className="footer__social-link"
           >
             <FaLinkedinIn />
