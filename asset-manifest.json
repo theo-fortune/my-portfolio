@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.89b60264.css",
+    "main.js": "/my-portfolio/static/js/main.1414e3ca.js",
+    "static/media/user2.jpg": "/my-portfolio/static/media/user2.f4d1379bb806d42bc065.jpg",
+    "static/media/user1.jpg": "/my-portfolio/static/media/user1.b58b62bc8f601556e0cf.jpg",
+    "static/media/user3.jpg": "/my-portfolio/static/media/user3.d83a19aab7e8445c01d6.jpg",
+    "static/media/work4.png": "/my-portfolio/static/media/work4.56b16c3bccd8593940e1.png",
+    "static/media/work3.png": "/my-portfolio/static/media/work3.94f8c160c6bf8b1cf8fb.png",
+    "static/media/work5.png": "/my-portfolio/static/media/work5.8933d40a8b59fe293845.png",
+    "static/media/work2.png": "/my-portfolio/static/media/work2.6f9e7c9e40a6591d05d2.png",
+    "static/media/work1.png": "/my-portfolio/static/media/work1.74bcc56b3aa065f3fc28.png",
+    "static/media/profile.jpg": "/my-portfolio/static/media/profile.c874ce76c4e7716a5805.jpg",
+    "static/media/fortunes-resume.pdf": "/my-portfolio/static/media/fortunes-resume.2169d1ddfcac2779173d.pdf",
+    "index.html": "/my-portfolio/index.html",
+    "main.89b60264.css.map": "/my-portfolio/static/css/main.89b60264.css.map",
+    "main.1414e3ca.js.map": "/my-portfolio/static/js/main.1414e3ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89b60264.css",
+    "static/js/main.1414e3ca.js"
+  ]
+}
