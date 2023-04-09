@@ -8,3 +8,4 @@ export { default as Work2 } from "./work2.png";
 export { default as Work3 } from "./work3.png";
 export { default as Work4 } from "./work4.png";
 export { default as Work5 } from "./work5.png";
+export { default as Face } from "./helmet.png";
